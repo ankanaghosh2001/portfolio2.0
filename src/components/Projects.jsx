@@ -50,8 +50,8 @@ const Projects = () => {
         <ProjectCard
           image={portfolio}
           heading="Personal Portfolio Website"
-          repoLink=""
-          liveLink=""
+          repoLink="https://github.com/ankanaghosh2001/portfolio2.0"
+          liveLink="https://ankana-ghosh.netlify.app/"
           body="This is a personal portfolio website created using React, TailwindCSS and VantaJS."
         />
 
