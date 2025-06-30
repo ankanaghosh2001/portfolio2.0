@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+@theme{
+    --font-poppins: "Poppins", sans-serif;
+}
+
+@keyframes animateBorder{
+    to{
+        background-position: 200%;
+    }
+}
+
+.animate-animateBorder{
+    animation: animateBorder 1.5s linear infinite;
+}
+
+.animated-text {
+    background: linear-gradient(90deg, #f9e3f1, #ff7fca, #ffbde7);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animateBorder 1.5s linear infinite;
+    line-height: 1.8;
+    letter-spacing: 0.05em;
+}
+
+.footer-text{
+    font-size: 0.75rem;
+}
+
+.line {
+  display: block;
+  overflow: hidden;
+}
+.word {
+  display: inline-block;
+  overflow: hidden;
+}
