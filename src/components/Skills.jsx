@@ -42,7 +42,7 @@ const Skills = () => {
     >
       <h2
         ref={headingRef}
-        className="font-poppins pt-[5rem] pb-[3rem] text-center text-2xl md:text-4xl font-medium tracking-wider animated-text"
+        className="font-poppins px-4 pt-[5rem] pb-[3rem] text-center text-2xl md:text-4xl font-medium tracking-wider animated-text"
       >
         A quick sneak-peek into my skills...
       </h2>

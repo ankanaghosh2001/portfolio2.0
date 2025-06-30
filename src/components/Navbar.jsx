@@ -59,7 +59,7 @@ const Navbar = () => {
           {navItems.map((item) => (
             <Link
               key={item}
-              to={item.toLowerCase()}
+              to={item.replaceAll(" ", "").toLowerCase()}
               smooth={true}
               duration={500}
               className="flex justify-center items-center text-pink-300 hover:text-pink-400 active:text-pink-600 font-poppins cursor-pointer transition"

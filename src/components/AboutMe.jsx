@@ -79,8 +79,8 @@ const AboutMe = () => {
         <div ref={iconsRef} className="social-contacts flex justify-around items-center gap-[1.5rem]">
           <a href="https://github.com/ankanaghosh2001"><FaGithub className="text-2xl md:text-4xl"/></a>
           <a href="https://www.linkedin.com/in/ankana-ghosh/"><FaLinkedin className="text-2xl md:text-4xl"/></a>
-          <a href="mailto:ankanaghosh1111@gmail.com"><IoMail className="text-4xl"/></a>
-          <a href="https://drive.google.com/file/d/1tVLsyUlQ1-WiV7FuOgouJKwj_htHBAWW/view?usp=sharing"><button className="px-4 py-2.5 font-poppins font-bold hover:bg-black hover:text-pink-300 border-2 border-pink-300 hover:shadow-[0_0_10px_#ff7ac7] rounded-3xl transition-all hover:text-shadow-[0_0_5px_#a30b63] bg-pink-300 text-black text-shadow-none cursor-pointer">My Resume</button></a>
+          <a href="mailto:ankanaghosh1111@gmail.com"><IoMail className="text-2xl md:text-4xl"/></a>
+          <a href="https://drive.google.com/file/d/1tVLsyUlQ1-WiV7FuOgouJKwj_htHBAWW/view?usp=sharing"><button className="px-3 py-1.5 text-xs md:px-4 md:py-2.5 text-[1rem] font-poppins font-bold hover:bg-black hover:text-pink-300 border-2 border-pink-300 hover:shadow-[0_0_10px_#ff7ac7] rounded-3xl transition-all hover:text-shadow-[0_0_5px_#a30b63] bg-pink-300 text-black text-shadow-none cursor-pointer">My Resume</button></a>
         </div>
         </div>
         <div ref={textContainerRef} className="aboutText w-[90%] h-max xl:w-[45vw] xl:h-[33rem] p-[3px] font-poppins border-0 text-[1rem] relative rounded-lg bg-[linear-gradient(90deg,#f9e3f1,#ff7ac7,#78004c,#ff7ac7,#f9e3f1)] bg-[length:200%] animate-animateBorder">
