@@ -31,7 +31,7 @@ const Navbar = () => {
               to={item.replaceAll(" ", "").toLowerCase()}
               smooth={true}
               duration={500}
-              className="cursor-pointer text-md text-pink-300 hover:text-pink-400 active:text-pink-600 transition font-poppins"
+              className="relative cursor-pointer text-md text-pink-300 hover:text-pink-400 active:text-pink-500 transition font-poppins before:absolute before:inset-x-2 before:-bottom-1 before:h-[1.5px] before:scale-x-0 before:bg-pink-400 before:origin-center before:transition-transform before:duration-300 hover:before:scale-x-100"
             >
               {item}
             </Link>
@@ -62,7 +62,7 @@ const Navbar = () => {
               to={item.replaceAll(" ", "").toLowerCase()}
               smooth={true}
               duration={500}
-              className="flex justify-center items-center text-pink-300 hover:text-pink-400 active:text-pink-600 font-poppins cursor-pointer transition"
+              className="flex justify-center items-center text-pink-300 hover:text-pink-400 active:text-pink-500 font-poppins cursor-pointer transition"
               onClick={() => setMenuOpen(false)}
             >
               {item}
