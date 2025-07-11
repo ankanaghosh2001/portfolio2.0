@@ -86,7 +86,7 @@ const Skills = () => {
         />
         <SkillCard
           heading="Currently Exploring"
-          skillsList={["MongoDB", "GSAP", "Material UI"]}
+          skillsList={["Next.js", "MongoDB", "Material UI"]}
         />
         <SkillCard
           heading="Linguistic Skills"
