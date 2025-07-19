@@ -66,7 +66,7 @@ const Education = () => {
             <EducationCard heading="B.Sc. in Computer Science" instituteName="Bijoy Krishna Girls'College" passingYear="2023" marks="8.805"/>
           </div>
           <div className="group flex items-center">
-            <EducationCard heading="M.Sc. in Computer Science" instituteName="University of Calcutta" passingYear="2025" marks="8.815"/>
+            <EducationCard heading="M.Sc. in Computer Science" instituteName="University of Calcutta" passingYear="2025" marks="8.813"/>
           </div>
         </div>
       </div>
