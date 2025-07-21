@@ -59,8 +59,8 @@ const Projects = () => {
           image={bus_reservation}
           heading="Bus Ticket and Seat Reservation Website"
           repoLink="https://github.com/ankanaghosh2001/bus_reservation_system"
-          liveLink="https://bus-anywhere.netlify.app/"
-          body="A full-stack bus ticket booking application built for learning and showcase — with user registration, seat selection, real-time seat availability, downloadable ticket, and user ticket history views."
+          liveLink="https://drive.google.com/file/d/1cBqpaEX1xwcB-0JgkVG_hBYuyM-76t0T/view?usp=sharing"
+          body="A full-stack bus ticket booking application built for learning and showcase — with user registration, seat selection, real-time seat availability, downloadable ticket, and user ticket history views. Check out the demo video recording by clicking on the live link."
         />
 
         <ProjectCard
@@ -68,8 +68,7 @@ const Projects = () => {
           heading="SAR Image Colorisation"
           repoLink="https://github.com/ShambaC/SAR-Image-Colorisation"
           liveLink="https://drive.google.com/file/d/1ntGH5519SMuEeXFSsejGJzurJGBGgWNO/view?usp=sharing"
-          body="This project helps to colorise grayscale SAR images for better processing and analysis, using Latent Diffusion Model.
-      (The backend of this project was hosted on a rented server, so unfortunately no live preview is available. But you can check out a recording of how this project works by clicking on live link.)"
+          body="This project helps to colorise grayscale SAR images for better processing and analysis, using Latent Diffusion Model. Check out the demo video recording by clicking on the live link."
         />
       </div>
     </section>
