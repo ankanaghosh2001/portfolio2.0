@@ -60,13 +60,14 @@ const Skills = () => {
             "Tailwind",
             "GSAP",
             "Bootstrap",
+            "Next.js"
           ]}
         />
         <SkillCard
           heading="Backend"
           skillsList={["Node.js", "Express.js", "PHP", "REST APIs"]}
         />
-        <SkillCard heading="Databases" skillsList={["MySQL", "SQL"]} />
+        <SkillCard heading="Databases" skillsList={["MySQL", "SQL", "MongoDB"]} />
         <SkillCard
           heading="Programming Languages"
           skillsList={["C", "Java", "Python"]}
@@ -84,10 +85,10 @@ const Skills = () => {
             "Figma",
           ]}
         />
-        <SkillCard
+        {/* <SkillCard
           heading="Currently Exploring"
-          skillsList={["Next.js", "MongoDB"]}
-        />
+          skillsList={[]}
+        /> */}
         <SkillCard
           heading="Linguistic Skills"
           skillsList={["Bengali", "English", "Hindi"]}

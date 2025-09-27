@@ -9,6 +9,7 @@ const Navbar = () => {
   const navItems = [
     "Home",
     "About Me",
+    "Work Experience",
     "Skills",
     "Education",
     "Projects",

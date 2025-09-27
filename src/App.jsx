@@ -7,8 +7,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Skills from './components/Skills'
-import { ToastContainer } from "react-toastify";
-// import { createBrowserRouter, RouterProvider} from 'react-router-dom';
+import Work from './components/Work'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +17,7 @@ function App() {
       <Navbar/>
       <LandingPage/>
       <AboutMe/>
+      <Work/>
       <Skills/>
       <Education/>
       <Projects/>
