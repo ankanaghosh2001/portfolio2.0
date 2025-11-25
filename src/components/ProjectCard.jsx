@@ -3,7 +3,7 @@ import { FaGithub, FaGlobe } from "react-icons/fa6";
 
 const ProjectCard = (props) => {
   return (
-    <div className='card w-[78%] xl:w-[29vw] xl:h-[38rem] p-[1rem] flex flex-col justify-around items-center gap-[1rem] bg-transparent animated-text border-2 border-pink-300 shadow-[0_0_8px_#ff7ac7] text-justify rounded-lg hover:shadow-[0_0_20px_#ff7ac7] transition-all'>
+    <div className='card w-[78%] xl:w-[50%] xl:h-[35rem] p-[1rem] flex flex-col justify-around items-center gap-[1rem] bg-transparent animated-text border-2 border-pink-300 shadow-[0_0_8px_#ff7ac7] text-justify rounded-lg hover:shadow-[0_0_20px_#ff7ac7] transition-all'>
         <div className="projectImage mb-[5px]">
             <img src={props.image} alt="Project Image" className='h-[15rem]'/>
         </div>
@@ -14,7 +14,7 @@ const ProjectCard = (props) => {
         <a href={props.repoLink}><FaGithub size={30}/></a>
         <a href={props.liveLink}><FaGlobe size={30}/></a>
       </div>
-      <div className="content animated-text">
+      <div className="content animated-text px-2 xl:px-5 xl:text-md">
         {props.body}
       </div>
       

@@ -46,7 +46,7 @@ const Projects = () => {
       <h2 ref={headingRef} className="font-poppins pt-[5rem] pb-[3rem] pl-[2rem] pr-[2rem] text-center text-2xl md:text-4xl font-medium tracking-wider animated-text">
         Here are the projects I worked on...
       </h2>
-      <div ref={containerRef} className="container flex flex-col xl:flex-row justify-around items-center gap-[3rem] xl:gap-0">
+      <div ref={containerRef} className="container flex flex-col justify-around items-center gap-[3rem] xl:gap-[4rem]">
         <ProjectCard
           image={portfolio}
           heading="Personal Portfolio Website"
