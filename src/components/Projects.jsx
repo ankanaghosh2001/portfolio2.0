@@ -1,6 +1,7 @@
 import React, {useRef} from "react";
 import ProjectCard from "./ProjectCard";
 import portfolio from "../assets/portfolio_website.png";
+import polaroid from "../assets/pretty_polaroid_website.png";
 import bus_reservation from "../assets/bus_reservation_website.png";
 import sar_img_col from "../assets/SAR_image_colorisation.png";
 import { gsap } from "gsap";
@@ -56,11 +57,19 @@ const Projects = () => {
         />
 
         <ProjectCard
+          image={polaroid}
+          heading="Pretty Polaroid - A Themed Photobooth Web App"
+          repoLink="https://github.com/ankanaghosh2001/polaroid-camera"
+          liveLink="https://pretty-polaroid.vercel.app/"
+          body="Pretty Polaroid is a browser-based multi-themed photobooth that lets you capture photos from your camera and turn them into cozy, Polaroid-style shots with tints and stickers — all in the browser, powered by Next.js, TypeScript, Tailwind CSS and Shadcn UI."
+        />
+
+        <ProjectCard
           image={bus_reservation}
-          heading="Bus Ticket and Seat Reservation Website"
+          heading="Bus.Anywhere - Bus Ticket and Seat Reservation Website"
           repoLink="https://github.com/ankanaghosh2001/bus_reservation_system"
           liveLink="https://drive.google.com/file/d/1cBqpaEX1xwcB-0JgkVG_hBYuyM-76t0T/view?usp=sharing"
-          body="A full-stack bus ticket booking application built for learning and showcase — with user registration, seat selection, real-time seat availability, downloadable ticket, and user ticket history views. Check out the demo video recording by clicking on the live link."
+          body="Bus.Anywhere is a full-stack bus ticket booking application built for learning and showcase — with user registration, seat selection, real-time seat availability, downloadable ticket, and user ticket history views. Check out the demo video recording by clicking on the live link."
         />
 
         <ProjectCard
