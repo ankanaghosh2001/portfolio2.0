@@ -68,8 +68,8 @@ const Projects = () => {
           image={bus_reservation}
           heading="Bus.Anywhere - Bus Ticket and Seat Reservation Website"
           repoLink="https://github.com/ankanaghosh2001/bus_reservation_system"
-          liveLink="https://drive.google.com/file/d/1cBqpaEX1xwcB-0JgkVG_hBYuyM-76t0T/view?usp=sharing"
-          body="Bus.Anywhere is a full-stack bus ticket booking application built for learning and showcase — with user registration, seat selection, real-time seat availability, downloadable ticket, and user ticket history views. Check out the demo video recording by clicking on the live link."
+          liveLink="https://bus-anywhere.netlify.app/"
+          body="Bus.Anywhere is a full-stack bus ticket booking application built for learning and showcase — with user registration, seat selection, real-time seat availability, downloadable ticket, and user ticket history views."
         />
 
         <ProjectCard
